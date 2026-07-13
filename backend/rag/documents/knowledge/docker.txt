@@ -1,0 +1,16 @@
+Docker is a containerization platform.
+
+Important concepts:
+- Images
+- Containers
+- Dockerfile
+- Docker Compose
+- Volumes
+- Networks
+- Multi-stage Builds
+
+Common interview questions:
+Difference between VM and Docker.
+How do you optimize Docker images?
+Explain Docker Compose.
+How do containers communicate?

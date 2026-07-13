@@ -1,0 +1,15 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.db
+*.wav
+.env
+candidate-evaluation-ai.zip
+interview-debug.zip
+backend/.venv/
+backend/__pycache__/
+backend/*.db
+backend/*.wav
+backend/uploads/
+backend/recordings/
+backend/rag/vector_db/

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Candidate Evaluation System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AI Candidate Evaluation System</h1>
+
+    <!-- Upload Resume -->
+
+    <div class="card">
+
+        <h2>Upload Resume</h2>
+
+        <input
+            type="file"
+            id="resume"
+            accept=".pdf"
+        >
+
+        <h2>Job Description</h2>
+
+        <textarea
+            id="jobDescription"
+            rows="10"
+            placeholder="Paste Job Description Here..."
+        ></textarea>
+
+        <button id="analyzeBtn">
+            Analyze Resume
+        </button>
+
+        <div
+            id="loading"
+            style="display:none;margin-top:20px;text-align:center;"
+        >
+            <div class="spinner"></div>
+            <p>Analyzing Resume...</p>
+        </div>
+
+    </div>
+
+    <!-- Match Result -->
+
+    <div class="card">
+
+        <h2>📊 Match Result</h2>
+
+        <h3>Match Score</h3>
+
+        <div class="progress-container">
+
+            <div
+                id="progressBar"
+                class="progress-bar"
+            >
+                0%
+            </div>
+
+        </div>
+
+        <p
+            id="score"
+            style="
+                text-align:center;
+                font-size:30px;
+                font-weight:bold;
+                margin-top:15px;
+            "
+        >
+            --
+        </p>
+
+        <div class="result-grid">
+
+            <div class="result-card">
+
+                <h3>Recommendation</h3>
+
+                <h2 id="recommendation">
+                    --
+                </h2>
+
+            </div>
+
+            <div class="result-card">
+
+                <h3>Interview Ready</h3>
+
+                <h2 id="ready">
+                    --
+                </h2>
+
+            </div>
+
+        </div>
+
+        <h3>✅ Matched Skills</h3>
+
+        <ul id="matchedSkills"></ul>
+
+        <h3>❌ Missing Skills</h3>
+
+        <ul id="missingSkills"></ul>
+
+    </div>
+
+    <!-- Send Email -->
+
+    <div class="card">
+
+        <h2>Send Result</h2>
+
+        <input
+            type="email"
+            id="candidateEmail"
+            placeholder="Candidate Email"
+        >
+
+        <br><br>
+
+        <button id="sendEmail">
+            Send Email
+        </button>
+
+    </div>
+
+    <!-- Schedule Interview -->
+
+    <div class="card">
+
+        <h2>📅 Schedule Interview</h2>
+
+        <input
+            type="date"
+            id="interviewDate"
+        >
+
+        <br><br>
+
+        <input
+            type="time"
+            id="interviewTime"
+        >
+
+        <br><br>
+
+        <input
+            type="text"
+            id="interviewer"
+            placeholder="Interviewer Name"
+        >
+
+        <br><br>
+
+        <input
+            type="text"
+            id="meetingLink"
+            placeholder="Google Meet Link"
+        >
+
+        <br><br>
+
+        <button id="scheduleInterview">
+            Schedule Interview
+        </button>
+
+    </div>
+
+    <!-- Action Buttons -->
+
+    <div class="card">
+
+        <button
+            id="startInterview"
+            disabled
+        >
+            🎤 Start AI Interview
+        </button>
+
+        <br><br>
+
+        <button
+            id="downloadReport"
+            disabled
+        >
+            Download AI Report
+        </button>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

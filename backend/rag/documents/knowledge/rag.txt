@@ -1,0 +1,30 @@
+Retrieval-Augmented Generation (RAG) 
+Retrieval-Augmented Generation combines search systems with large language models to answer questions using external knowledge. [1, 2, 3]  
+Core Architecture • Ingestion Pipeline: Prepares and stores document data. 
+• Retrieval System: Finds relevant data matching user queries. 
+• Generation Component: Crafts the final natural language answer. [4, 5, 6, 7, 8]  
+
+Key Components & Algorithms • Chunking Strategies: Fixed-size, semantic, or document-based splitting. 
+• Embedding Models: Converts text into high-dimensional vectors. 
+• Vector Databases: Stores and indexes embedded text data. 
+• Hierarchical Navigable Small World (HNSW): Fast approximate nearest neighbor search algorithm. 
+• Inverted File Index (IVF): Clusters vector spaces for accelerated retrieval. 
+• Cosine Similarity: Measures directional alignment between text vectors. 
+• Dense Passage Retrieval (DPR): Matches text using deep learning embeddings. 
+• BM25: Keyword-based sparse retrieval scoring algorithm. 
+• Cross-Encoders: Re-ranks retrieved passages for higher precision. [9, 10, 11, 12, 13]  
+
+Important Concepts • Retrieval-Augmented Generation: Merging search results into LLM prompts. 
+• Vector Embeddings: Numerical representations of semantic text meaning. 
+• Semantic Search: Searching by intent rather than exact keywords. 
+• Hybrid Search: Combining keyword matching with vector search. 
+• Re-ranking: Scoring retrieved documents to prioritize top matches. 
+• Context Window Limits: Maximum token capacity an LLM can process. 
+• Lost in the Middle: Performance drops when facts sit mid-prompt. 
+• Retrieval Evaluation (RAGAS): Measuring faithfulness, answer relevance, and context recall. [14, 15, 16, 17, 18]  
+
+Common Interview Questions • Explain the RAG trilemma. Balancing retrieval speed, accuracy, and storage cost. 
+• How do you handle chunking? Finding the right size to balance context and specificity. 
+• What is a naive RAG system? Simple fetch-and-generate without advanced re-ranking or querying. 
+• How do you mitigate LLM hallucinations? Grounding the generation strictly in retrieved source text. [19, 20, 21, 22, 23]  
+

@@ -1,0 +1,20 @@
+FastAPI is a modern Python web framework used to build high-performance REST APIs.
+
+Key concepts:
+- APIRouter
+- Dependency Injection
+- Pydantic Validation
+- Async/Await
+- Middleware
+- Background Tasks
+- File Uploads
+- JWT Authentication
+- SQLAlchemy Integration
+- Uvicorn ASGI Server
+
+Common interview questions:
+How does FastAPI improve performance?
+What is dependency injection?
+Difference between async and sync endpoints?
+How do you secure FastAPI APIs?
+How do you deploy FastAPI applications?

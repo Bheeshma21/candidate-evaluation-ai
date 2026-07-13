@@ -1,0 +1,1 @@
+python -c "from rag.document_loader import DocumentLoader; DocumentLoader().load_documents()"

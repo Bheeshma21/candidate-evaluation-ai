@@ -1,0 +1,27 @@
+Machine Learning allows computers to learn patterns from data.
+
+Algorithms:
+- Linear Regression
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- XGBoost
+- SVM
+- KNN
+- Neural Networks
+
+Important concepts:
+- Feature Engineering
+- Cross Validation
+- Precision
+- Recall
+- F1 Score
+- ROC AUC
+- Bias vs Variance
+- Hyperparameter Tuning
+
+Common interview questions:
+Explain overfitting.
+Difference between classification and regression.
+How do you evaluate a model?
+Explain cross validation.

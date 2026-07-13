@@ -1,0 +1,18 @@
+LangGraph is a framework for building stateful AI workflows using graphs.
+
+Core concepts:
+- StateGraph
+- Nodes
+- Edges
+- Conditional Routing
+- Shared State
+- Multi-Agent Systems
+- Tool Calling
+- Human-in-the-loop
+- Memory
+
+Common interview questions:
+Why use LangGraph over LangChain?
+What is StateGraph?
+How does conditional routing work?
+Explain multi-agent orchestration.

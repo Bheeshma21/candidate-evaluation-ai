@@ -1,0 +1,20 @@
+Python is a high-level programming language widely used in AI, Data Science, Backend Development, and Automation.
+
+Important topics:
+- OOP
+- Functions
+- List Comprehensions
+- Generators
+- Decorators
+- Context Managers
+- Exception Handling
+- Multithreading
+- Multiprocessing
+- Async Programming
+
+Common interview questions:
+What is the difference between list and tuple?
+Explain generators.
+What are decorators?
+Difference between threading and multiprocessing?
+What is GIL?

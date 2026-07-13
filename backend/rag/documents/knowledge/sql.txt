@@ -1,0 +1,19 @@
+SQL is used to query relational databases.
+
+Important concepts:
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- HAVING
+- JOIN
+- Subqueries
+- Window Functions
+- CTE
+- Indexing
+
+Common interview questions:
+Difference between INNER JOIN and LEFT JOIN.
+What are indexes?
+Explain normalization.
+Difference between DELETE, DROP, and TRUNCATE.

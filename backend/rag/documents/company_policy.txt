@@ -1,0 +1,1 @@
+Our company values Python, FastAPI, LangGraph, Machine Learning, SQL, Docker, Kubernetes, AWS, communication skills, problem solving, teamwork, and system design experience.
